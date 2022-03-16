@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         title = "KotlinApp"
         radioGroup = findViewById(R.id.radioGroup)
-        button = findViewById(R.id.btnDisplay)
+        button = findViewById(R.id.button1)
         button.setOnClickListener {
             val intSelectButton: Int = radioGroup!!.checkedRadioButtonId
             radioButton = findViewById(intSelectButton)
